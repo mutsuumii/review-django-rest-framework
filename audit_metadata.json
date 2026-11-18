@@ -1,0 +1,174 @@
+{
+  "source_repo": "encode/django-rest-framework",
+  "source_url": "https://github.com/encode/django-rest-framework",
+  "audit_date": "2026-11-18T09:10:23.628231",
+  "scanner_version": "1.3.0",
+  "findings_count": 20,
+  "severity_breakdown": {
+    "HIGH": 17,
+    "CRITICAL": 2,
+    "MEDIUM": 1
+  },
+  "findings": [
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/browsable_api/test_browsable_api.py",
+      "line": 41
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/browsable_api/test_browsable_api.py",
+      "line": 82
+    },
+    {
+      "id": "PY-DESER-001",
+      "name": "Insecure deserialization",
+      "severity": "CRITICAL",
+      "cwe": "CWE-502",
+      "file": "tests/test_relations.py",
+      "line": 518
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "rest_framework/static/rest_framework/js/bootstrap.min.js",
+      "line": 6
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_views.py",
+      "line": 88
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 89
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 100
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 114
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 130
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 143
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 182
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 190
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 208
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 299
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/authentication/test_authentication.py",
+      "line": 648
+    },
+    {
+      "id": "PY-DESER-001",
+      "name": "Insecure deserialization",
+      "severity": "CRITICAL",
+      "cwe": "CWE-502",
+      "file": "tests/test_serializer.py",
+      "line": 600
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "rest_framework/static/rest_framework/js/jquery-3.7.1.min.js",
+      "line": 2
+    },
+    {
+      "id": "JS-PROTO-001",
+      "name": "Prototype pollution",
+      "severity": "HIGH",
+      "cwe": "CWE-1321",
+      "file": "rest_framework/static/rest_framework/js/jquery-3.7.1.min.js",
+      "line": 2
+    },
+    {
+      "id": "JS-REGEX-001",
+      "name": "ReDoS via backtracking regex",
+      "severity": "MEDIUM",
+      "cwe": "CWE-1333",
+      "file": "rest_framework/static/rest_framework/js/jquery-3.7.1.min.js",
+      "line": 2
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_negotiation.py",
+      "line": 163
+    }
+  ]
+}
